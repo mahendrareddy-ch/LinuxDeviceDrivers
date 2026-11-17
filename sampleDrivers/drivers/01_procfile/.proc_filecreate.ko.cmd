@@ -1,0 +1,1 @@
+savedcmd_proc_filecreate.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /usr/src/linux-headers-6.18.60+rpt-rpi-v8/arch/arm64/module.lds -o proc_filecreate.ko proc_filecreate.o proc_filecreate.mod.o .module-common.o
